@@ -10,7 +10,7 @@ app.post('/generate', async (req, res) => {
     const response = await fetch("https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer YOUR_HUGGINGFACE_TOKEN",
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({ inputs: prompt })
